@@ -1,0 +1,53 @@
+Terdapat beberapa data yang terdiri dari 10 angka
+1. Menentukan Poros
+Saya memilih angka ujung kanan sebagai poros
+Setelah itu kita menggunakan 2 penanda, yaitu penanda kanan & kiri
+Di quick sort, penanda kiri bergerak ke kanan sampai menemukan angka yang lebih besar dari poros
+Dan penanda kanan bergerak ke kiri sampai menemukan data yang lebih kecil dari poros
+
+2. Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,
+dan akhirnya menemukan angka 64
+Lalu penanda kanan ke arah kiri sampai menemukan angka yang lebih kecil dari poros,
+dan akhirnya menemukan angka 58
+Tukarkan angka 64 dan 58
+
+3. Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,
+dan akhirnya menemukan angka 66
+Lalu penanda kanan ke arah kiri sampai menemukan angka yang lebih kecil dari poros,
+dan akhirnya menemukan angka 59
+Tukarkan angka 66 dan 59
+
+4. Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,
+dan akhirnya menemukan angka 66
+Karena kedua penanda bersilangan, maka penanda kiri ditukar dengan poros
+
+5. Angka yang tadinya menjadi poros diberi garis bawah, yang berarti tidak bisa dipindahkan lagi
+Maka sekarang 1 tahap pengurutan data menggunakan quick sort telah berhasil
+
+Proses dilanjutkan seperti langkah 1
+
+6. Penanda kiri bergerak ke kanan dan menemukan angka 85
+Dan penanda kanan bergerak ke kiri menemukan angka 63
+Tukarkan angka 85 dan 63
+
+7. Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,
+dan akhirnya menemukan angka 85
+Karena kedua penanda bersilangan, maka penanda kiri ditukar dengan poros
+
+8. Angka yang tadinya menjadi poros diberi garis bawah, yang berarti tidak bisa dipindahkan lagi
+Lalu bagi data menjadi 2 array
+Di sebelah kiri angka 62 dan disebelah kanan angka 62
+Angka 55 dan 64 menjadi poros, dan masing" terdapat penanda kiri dan kanan
+
+9. Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,
+Karena di sebelah kiri angka 62, penanda kiri dan kanan sudah bersilangan Maka Penanda kiri ditukar dengan poros
+
+10. Disebelah kanan angka 62, gerakkan penanda kiri dan kanan lalu menemukan angka 63 dan 64
+Disebelah kiri angka 62, gerakkan penanda kiri dan kanan lalu menemukan angka 58 dan 55
+Karena di sebelah kiri dan kanan angka 62, penanda kiri dan kanan sudah bersilangan Maka Penanda kanan ditukar dengan poros
+
+11. Karena angka 64 dan 59, maka angka tersebut diberi garis bawah kecuali 64, karena masih memiliki penanda
+Gerakkan penanda kiri ke arah kanan sampai menemukan angka yang lebih besar dari poros,  dan akhirnya menemukan angka 58
+Lalu untuk penanda kanan, gerakkan ke arah kiri sampai menemukan angka yang lebih kecil dari poros dan menemukan angka 63
+Tukarkan angka 58 dan 63 dengan poros
+Tahap Quick Sort telah selesai
