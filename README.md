@@ -1,4 +1,4 @@
-# Tugas-Kelompok-ASD
+# Tugas Kelompok ASD
 Algoritma & Struktur Data (ASD) with Python
 
 Anggota Kelompok :
